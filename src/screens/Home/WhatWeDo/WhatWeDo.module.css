@@ -1,0 +1,88 @@
+.weAreContentWrapper {
+    width: 98%;
+    margin: auto;
+    max-width: 1044px;
+} 
+
+.WeAreHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.WeAreHeader > h2 {
+margin: 0;
+}
+.Bar {
+    width: 10px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: var(--content-color);
+}
+
+.Description_Btn {
+    background-color: var(--foreground-color);
+    text-align: left;
+}
+
+.Description {
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+
+.imageContainer {
+    width: 85%;
+    max-width: 500px;
+    float: right;
+}
+
+.Background {
+    height: 250px;
+    width: 100%;
+    position: relative;
+    background-color: var(--content-color);
+}
+
+.imageWrapper {
+    position: absolute;
+    top: -12px;
+    left: -12px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.imageWrapper > img {
+    height: 100%;
+    width: 100%;
+    transition: scale 0.4s ease-in-out;
+}
+
+.imageContainer:hover  img {
+    scale: 1.3;
+}
+
+.clearfix {
+    clear: both;
+}
+
+@media(min-width: 40rem ) {
+.ItemsWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ItemsWrapper > article {
+width: 48%;
+}
+.Description {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.imageContainer {
+    padding-left: 10px;
+    margin-right: -4%;
+}
+
+}

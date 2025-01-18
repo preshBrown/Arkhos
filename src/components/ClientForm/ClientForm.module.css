@@ -1,0 +1,53 @@
+.SignUpFormContainer {
+    padding-top: 25px;
+    /* margin-bottom: 35px; */
+    overflow-y: auto;
+    border-radius: 15px;
+    height: 400px;
+  }
+
+
+  .SignUpFormContainer::-webkit-scrollbar {
+    width: 0.5vw;
+  }
+  
+  .SignUpFormContainer::-webkit-scrollbar-thumb {
+    background-color: var(--background-color);
+  }
+  /* aside::-webkit-scrollbar-thumb {
+      background-color: var(--background-color);
+    } */
+  
+  .SignUpFormContainer::-webkit-scrollbar-track {
+    background-color: var(--foreground-color);
+  }
+  
+  .SignUpForm {
+    /* padding: 0.8rem; */
+    /* background-color: var(--foreground-color); */
+    background-color: white;
+    /* width: 95%; */
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .labelClass {
+    color: black ;
+    font-size: 16px;
+  }
+  
+  .form-title__ {
+    text-align: center;
+    color: gray;
+  }
+  
+  #form__wrapper {
+    display: grid;
+    grid-auto-rows: auto;
+    row-gap: 15px;
+  }
+  
+.button-Grid {
+  font-size: 16px;
+  font-weight: bolder;
+}

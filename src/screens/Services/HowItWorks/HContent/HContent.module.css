@@ -1,0 +1,32 @@
+
+.HContent > h1 {
+    font-size: 21px;
+    padding-left: 5px;
+}
+
+.Items {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.Item {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.Item > h2 { 
+    margin: 0;
+    margin-right: 15px;
+    padding: 13px;
+    border-radius: 50%;
+    text-align: center;
+    width: 55px;
+    height: 55px;
+    background-color: var(--background-color);
+
+/* margin-right: 8px; */
+}
+

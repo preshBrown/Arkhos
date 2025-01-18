@@ -1,0 +1,30 @@
+.NavItem {
+    margin: 1rem 0;
+    /* padding: 0.3rem 0.3rem; */
+}
+
+.NavItem:hover {
+    box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.2);
+    background-color: rgb(241, 241, 241);
+    color: var(--content-hover);
+}
+.NavItem  a {
+    padding: 0.5rem 0.3rem;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: var(--primary-text-color);
+}  
+
+a.active {
+    /* border-bottom: 1px solid rgba(10, 10, 119, 0.5); */
+    border-bottom: 1px solid var( --content-hover);
+    /* rgb(10, 10, 119) */
+    box-shadow: 2px 4px 6px 2px rgba(0, 0, 0, 0.2);
+    /* background-color: rgb(241, 241, 241); */
+    color: var( --content-hover);
+}
+
+.NavItem  a:hover {
+    color: var(--content-hover);
+} 

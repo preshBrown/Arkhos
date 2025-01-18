@@ -1,0 +1,43 @@
+.contentClass {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-bottom: 20px;
+}
+.ClientHeader {
+    font-size: 24px;
+}
+
+.ClientHeaderIcon {
+    vertical-align: middle;
+    color: yellow;
+    border-radius: 15px;
+    /* color: red; */
+}
+
+
+.OffsureSupplyBtn {
+    border-radius: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--primary-text-color);
+    background-color: var(--foreground-color);
+    margin: auto;
+    margin-bottom: 39px;
+    transition: scale 0.4s ease-in-out;
+}
+.OffsureSupplyBtn:hover {
+    color: red;
+    scale: 1.1;
+}
+.ExperienceContents {
+    margin: 0;
+    padding: 0 15px;
+    /* list-style: lower-alpha; */
+}
+.ExperienceContent {
+margin-bottom: 15px;
+}
+.ExperienceContent h4{
+margin: 0;
+}

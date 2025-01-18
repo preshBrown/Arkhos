@@ -1,0 +1,48 @@
+.SectionHeader {
+  width: 90%;
+  margin: auto;
+  margin-top: 75px;
+  margin-bottom: 28px;
+  max-width: 1044px;
+
+}
+.SectionHeader > h1 {
+margin: 0;
+font-weight: 500;
+font-size: 20px;
+}
+
+.weAreContentWrapper {
+    width: 90%;
+    margin: auto;
+    max-width: 1044px;
+  }
+  
+  .OurServices {
+    padding: 15px 0;
+    /* background-color: var(--foreground-color); */
+    transition: background-color 0.3s ease-in-out;
+    margin-bottom: 39px;
+  }
+  
+  .WeAreHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  .WeAreHeader > h2 {
+    margin: 0;
+  }
+  .Bar {
+    width: 10px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: var(--content-color);
+  }
+
+  @media (min-width: 40rem) {
+    .SectionHeader {
+    margin-bottom: 50px;
+    }
+  }

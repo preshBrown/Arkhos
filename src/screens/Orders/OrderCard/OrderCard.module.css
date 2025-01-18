@@ -1,0 +1,68 @@
+.OrderCard {
+  max-width: 40rem;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.OrderCardHeader {
+    padding: 5px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(204, 204, 204, 0.4);
+    /* border-top: 0.5px solid rgba(204, 204, 204, 0.4); */
+   
+    cursor: pointer;
+  }
+  
+  .OrderCardHeader > h4 {
+    margin: 0;
+    padding: 5px 0;
+    width: fit-content;
+  }
+  .cost {
+    color: red;
+    border-bottom: none;
+  }
+  
+  .OrderCard.Open > header > h4 {
+    border-bottom: 0.5px solid red;
+  }
+  .OrderCard.Open > header > .cost {
+    border-bottom: none;
+  }
+  .Icon {
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+  .OrderCard.Open .Icon {
+      transform: rotate(90deg);
+  }
+
+  .OrderCardDescription {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-align: left;
+    height: 0;
+    overflow: hidden;
+  }
+  .OrderCardDescription h5 {
+    margin: 0;
+  }
+  .OrderCardDescription > p {
+    margin: 0;
+    padding: 10px;
+  }
+  .OrderCard.Open > .OrderCardDescription {
+        padding: 15px;
+    height: auto;
+  }
+  
+  /* .OrderCardDescription > p {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 50px;
+  } */
+  

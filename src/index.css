@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+
+    font-family:Arial, Roboto, Helvetica, sans-serif; 
+     line-height: 1.25;
+    font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+[data-theme="light"] { 
+  --brand-shadow-color: black ;
+  --brand-head-color: yellow ;
+  --brand-subhead-color: red;
+  --inputbackground-color:  rgb(0, 0, 46, 0.7);
+  --inputborder-color: rgba(10, 10, 119, 0.5);
+  --outdoor-background-color:black;
+--spinner-color: gray;
+  --home-shadow-wrapper-color: rgba(0, 0, 0, 0.1);
+  --shadow-wrapper-color:rgba(0, 0, 0, 0.6);
+  --shallow-wrapper-color:rgb(233, 226, 226);
+  --dynamic-sidebarbackground-color: rgba(0, 0, 46, 0.1);
+  --firstheaderbackground-color: white;
+  --secondheaderbackground-color:  rgba(14, 13, 13, 0.9);
+  --brand-color: #00002e;
+  --background-color: rgb(255, 255, 255);
+  --foreground-color: gray;
+  --rgba-foreground-color:  rgba(128, 128, 128, 0.8) ;
+
+  --primary-text-color: black;
+  --content-color:  yellow;
+  --content-hover:  red;
+  --item-change:  black;
+
+  /* --footTop-background-color: #ccc; */
+  /* --footbuttom-background-color: rgba(10, 10, 119, 0.5); */
+  --footTop-background-color: rgba(0, 0, 46, 0.3);
+  --footbuttom-background-color:  rgba(0, 0, 46, 0.3);
+  --specialcontent-background-color:grey;
+  --specialcontent-text-color:white;
+  --text-hover: blueviolet;
+  /* rgba(10, 10, 119, 0.5) */
+}
+
+[data-theme="dark"] {
+  --brand-shadow-color: rgba(255, 255, 255, 0.2) ;
+  --brand-head-color: rgba(0, 128, 79, 0.7) ;
+  --brand-subhead-color: yellow;
+  --inputbackground-color:  rgb(0, 0, 46, 0.7);
+  --inputborder-color:  rgba(10, 10, 119, 0.5);
+  --outdoor-background-color:darkgray;
+  /* --spinner-color: darkgray; */
+  --spinner-color: rgb(31, 27, 41);
+  --home-shadow-wrapper-color: rgba(255, 255, 255, 0.2);
+  --shadow-wrapper-color:rgba(255, 255, 255, 0.1);
+  --shallow-wrapper-color:rgb(10, 14, 9);
+  --dynamic-sidebarbackground-color: rgba(255, 255, 255, 0.1);;
+  /* --firstheaderbackground-color: rgb(10, 10, 119); */
+  --firstheaderbackground-color: rgb(0, 0, 0);
+  /* --secondheaderbackground-color:  rgba(10, 10, 119, 0.5); */
+  --secondheaderbackground-color:  rgba(14, 13, 13, 0.9);
+  --brand-color: white;
+  /* --background-color: #00002e;
+  --foreground-color: rgb(10, 10, 119); */
+  /* --background-color: rgb(20, 20, 20);
+  --foreground-color: black; */
+  --background-color:rgb(0, 7, 0);
+  --foreground-color: rgb(9, 24, 9);
+  --rgba-foreground-color:  rgba(9, 24, 9, 0.8) ;
+  --content-color:  yellow;
+  --content-hover:  red;
+  /* --item-change:   rgba(0, 128, 0, 0.5); */
+  --item-change:   rgba(2, 71, 2, 0.5);
+  --primary-text-color: white;
+
+  /* --footTop-background-color:  rgb(114, 114, 209); */
+  /* --footTop-background-color:  #00002e;
+  --footbuttom-background-color: rgba(138, 43, 226, 0.3); */
+  --footTop-background-color:   rgba(9, 24, 9, 0.3);
+  --footbuttom-background-color:  rgba(9, 24, 9, 0.3);
+  --specialcontent-background-color:white;
+  --specialcontent-text-color:black;
+  --text-hover: blueviolet;
+}
+/* :root {
+  --background-color: white;
+  --foreground-color: rgb(245, 243, 243);
+  --content-color: white;
+  --primary-text-color: #0a0a0a;
+  --footTop-background-color: #ccc;
+  --footbuttom-background-color: rgba(138, 43, 226, 0.3);
+  --specialcontent-background-color:grey;
+} */

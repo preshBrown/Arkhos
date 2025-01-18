@@ -1,0 +1,198 @@
+.SideDrawer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 280px;
+  max-width: 70%;
+  padding: 0px 0 10px 0;
+  height: 100%;
+  overflow-y: auto;
+  /* background-color: rgb(245, 243, 243); */
+  background-color: var(--background-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 102;
+  transition: background-color 0.3s ease-in-out;
+  outline: none;
+}
+
+
+.SideDrawer::-webkit-scrollbar {
+  width: 1vw;
+}
+
+.SideDrawer::-webkit-scrollbar-thumb {
+  background-color: var(--background-color);
+}
+/* aside::-webkit-scrollbar-thumb {
+    background-color: var(--background-color);
+  } */
+
+.SideDrawer::-webkit-scrollbar-track {
+  background-color: var(--foreground-color);
+}
+
+/* .OpenSide {
+    transform: translateX(0);
+}
+.CloseSide {
+    transform: translateX(-100%);
+} */
+
+.OpenSide {
+  animation: openSlide 0.3s ease-out forwards;
+}
+.CloseSide {
+  animation: closeSlide 0.3s ease-out forwards;
+}
+
+.SideDrawerHeader >* {
+  vertical-align: middle;
+}
+.SideDrawerHeader {
+  padding-top: 8px;
+  padding-left: 0.3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* .SideDrawerHeader > h1 {
+  margin: 0;
+  font-size: 25px;
+  color: var(--brand-color);
+} */
+
+/* .SideDrawerHeader > a {
+  display: inline-block;
+  height: 35px;
+  width: 95px;
+    text-decoration: none;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 25px;
+    color: var(--brand-color); 
+} */
+/* .SideDrawerHeader > a > .BoldrixImg {
+  width: 100%;
+  height: 100%;
+} */
+/* .FirstHeaderBrand > a {
+  margin: 0 0.2rem;
+  vertical-align: middle;
+} */
+
+
+.SideDrawerHeader > a {
+  /* display: inline-block; */
+  display:flex;
+  justify-content: center;
+  align-items: start;
+  height: 35px;
+  /* width: 95px; */
+  text-decoration: none;
+    /*   font-weight: bolder;
+    font-size: 20px;
+    color:   rgba(0, 128, 0, 0.9);
+    font-style: italic; */
+
+    /* font-weight: bold;
+    font-size: 25px;
+    color: var(--brand-color); */
+}
+.BrandName {
+margin-right: 8px;
+}
+.BrandName > h2 {
+  margin: 0;
+  /* color: rgba(0, 128, 0, 0.7); */
+  /* color: rgba(0, 128, 79, 0.7); */
+  color:var(--brand-head-color);
+  /* text-shadow: 2px 2px 2px var(--home-shadow-wrapper-color); */
+  text-shadow: 2px 2px 2px var( --brand-shadow-color);
+}
+.BrandName > small {
+  display: block;
+  width: 100%;
+  text-align: center;
+  /* color: yellow; */
+  color: var(--brand-subhead-color);
+  /* text-shadow: 2px 2px 2px var(--home-shadow-wrapper-color); */
+  text-shadow: 0.5px 0.5px 1px var( --brand-shadow-color);
+}
+
+
+.FireLogo {
+  width: 30px;
+  height: 30px;
+}
+
+.FireLogo > img {
+  
+  width: 100%;
+  height: 100%;
+}
+
+
+.SideDrawerHeader > span {
+  color: white;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+  /* margin-right: 1px; */
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: var(  --item-change) ;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* .SideContents {
+  margin-top: 30px;
+} */
+.SideContents {
+  border-top: 1px solid rgba(204, 204, 204, 0.4);
+}
+
+.SideCompanyProfile {
+  /* position: absolute;
+  bottom: 0; */
+  margin-top: 50px !important;
+}
+@keyframes openSlide {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes closeSlide {
+  0% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(-50%);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+@media(min-width: 40rem) {
+  .SideDrawer,
+  .BackdropDisplayControl {
+    display: none;
+  } 
+}

@@ -1,0 +1,73 @@
+.HeaderLayoutHeader {
+    width: 95%;
+    margin: auto;
+}
+
+.HeaderLayoutImageWrapper {
+    width: 100%;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.HeaderLayoutImageWrapper  > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+}
+
+.HeaderLayoutSubHeader {
+    position: relative;
+    padding: 24px;
+    /* max-width: 40rem; */
+    margin-top: -50px;
+    background-color: var(--background-color);
+    /* z-index: 1; */
+}
+.HeaderLayoutSubHeader > h1 {
+font-size: 34px;
+margin-top: 0;
+}
+.HeaderLayoutSubHeader > p {
+font-size: 20px;
+}
+
+
+
+
+
+
+
+@media (min-width: 500px) {
+    .HeaderLayoutImageWrapper {
+        height: 180px;
+       
+    }
+}
+
+
+@media (min-width: 750px) {
+
+    .HeaderLayoutImageWrapper {
+        height: 200px;
+       
+    }
+} 
+
+
+
+
+
+@media (min-width: 960px) {
+
+    .HeaderLayoutSubHeader {
+      
+        max-width: 40rem;
+        margin-top: -60px;
+        border-radius: 0 15px 0 0;
+       
+    }
+    .HeaderLayoutImageWrapper {
+        height: 300px;
+       
+    }
+}

@@ -1,0 +1,17 @@
+.Digitalization {
+    padding: 25px 0;
+}
+
+
+
+.ExperienceContents {
+    margin: 0;
+    padding: 0 15px;
+    /* list-style: lower-alpha; */
+}
+.ExperienceContent {
+margin-bottom: 8px;
+}
+.ExperienceContent > a {
+    color: var(--primary-text-color);
+}

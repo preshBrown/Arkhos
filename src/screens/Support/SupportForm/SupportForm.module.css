@@ -1,0 +1,67 @@
+.Contacts {
+    width: 95%;
+    margin: 30px auto;
+    /* background-color: var(--foreground-color); */
+    padding: 10px 10px;
+    max-width: 900px;
+    border-radius: 15px;
+  }
+  .Form {
+    
+  }
+  .Form > button {
+    all: unset;
+    text-align: center;
+    width: 100px;
+    height: 25px;
+    padding: 5px 3px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+  }
+  .InputBackground {
+    background-color: var(--foreground-color);
+  }
+  
+  .Form {
+    padding-bottom: 25px;
+  }
+  .Form > button:focus {
+    outline: none;
+  }
+  .Form > button:hover {
+    background-color: var(--specialcontent-background-color);
+    color: black;
+  }
+  .Form > button:disabled {
+    border-color: gray;
+    background: #ccc;
+    color: gray;
+    cursor: not-allowed;
+  }
+  
+  .Form > button:disabled:hover {
+    border-color: gray;
+    background: #ccc;
+    color: gray;
+    cursor: not-allowed;
+  }
+
+
+  @media (min-width: 40rem) {
+    /* .Contacts {
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      padding-bottom: 20px;
+    }
+    .InTouch {
+      width: 48%;
+    } */
+  
+    .Form {
+      /* padding-bottom: 0; */
+      width: 48%;
+    }
+  }

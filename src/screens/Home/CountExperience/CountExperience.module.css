@@ -1,0 +1,10 @@
+.ExperienceContainer {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   width: 98%;
+   margin: auto;
+   max-width: 1044px;
+}
+

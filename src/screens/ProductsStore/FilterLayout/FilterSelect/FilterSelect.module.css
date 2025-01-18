@@ -1,0 +1,29 @@
+.FilterSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+    width: 100px;
+    margin-bottom: 10px;
+}
+.FilterSelect > * {
+    margin: 0;
+    padding: 0;
+}
+.FilterSelect > h5 {
+    font-weight: 400;
+}
+.CheckBoxs {
+    width: 1rem !important;
+    height: 1rem !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    background-color: white;
+    margin-right: 5px !important;
+    transition: background-color 0.3s ease-in-out !important;
+}
+
+.CheckBoxs:checked {
+    border: 1px solid black;
+    background-color: red !important;
+}

@@ -1,0 +1,62 @@
+.SuccessNotification {
+    position: fixed;
+    width: 200px;
+    top: 60px;
+    right: 6px;
+    background-color:rgba(2, 71, 2, 0.8);
+    border-radius: 35px 10em 10%;
+    padding: 10px 0;
+    border: 1px solid #ccc;
+    text-align:  center;
+    font-style: italic;
+    font-size: 17px;
+    font-weight: bolder;
+    z-index: 210;
+}
+
+.Mopen {
+    animation: open-modal 400ms ease-out forwards;
+}
+
+.Mclose {
+    animation: close-modal 400ms ease-in forwards;
+}
+
+
+@keyframes open-modal {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(50%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes close-modal {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    50% {
+        opacity: 1;
+        transform: translateX(50%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+}
+
+
+@media (min-width: 800px) {
+    .SuccessNotification {
+      width: 250px;
+    }
+  }

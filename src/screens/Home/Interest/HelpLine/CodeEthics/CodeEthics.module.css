@@ -1,0 +1,21 @@
+.Digitalization {
+  padding: 25px 0;
+}
+
+.SectionWrapper {
+    margin-bottom: 40px;
+  }
+
+  .Explore {
+    font-size: 28px;
+    text-align: center;
+}
+
+.ExperienceContents {
+    margin: 0;
+    padding: 0 15px;
+    /* list-style: lower-alpha; */
+}
+.ExperienceContent {
+margin-bottom: 8px;
+}

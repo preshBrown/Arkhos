@@ -1,0 +1,48 @@
+.FooterTopItemss {
+    width: fit-content
+}
+
+.ItemWrapper {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+
+}
+
+
+.ItemContainer {
+    color: var(--primary-text-color);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+.ItemContainer:hover {
+    text-decoration: underline;
+}
+
+
+.ItemIcons {
+    margin-right: 7px;
+    vertical-align: middle;
+}
+
+.FooterTopList {
+    margin-bottom: 5px ;
+    padding: 5px 0;
+    /* width: fit-content; */
+}
+
+@media (min-width: 600px) {
+    .FooterTopItemss {
+        width: 40%;
+    }
+}
+
+@media (min-width: 800px) {
+    .FooterTopItemss {
+        width: 25%;
+    }
+}

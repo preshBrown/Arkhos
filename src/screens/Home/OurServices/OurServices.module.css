@@ -1,0 +1,21 @@
+.IntContentWrapper {
+    width: 98%;
+    margin: auto;
+    max-width: 1044px;
+} 
+
+.IntHeader {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.IntHeader > h2 {
+margin: 0;
+}
+.Bar {
+    width: 10px;
+    height: 30px;
+    margin-right: 10px;
+    background-color: var(--content-color);
+}

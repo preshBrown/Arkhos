@@ -1,0 +1,77 @@
+.contentClass {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    padding-bottom: 20px;
+}
+.ClientHeader {
+    font-size: 24px;
+}
+
+.ClientHeaderIcon {
+    vertical-align: middle;
+    color: yellow;
+    border-radius: 15px;
+    /* color: red; */
+}
+
+.StructuralWorkBtn {
+    border-radius: 0;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--primary-text-color);
+    background-color: var(--foreground-color);
+    margin: auto;
+    margin-bottom: 39px;
+    transition: scale 0.4s ease-in-out;
+}
+.StructuralWorkBtn:hover {
+    color: red;
+    scale: 1.1;
+}
+.CapabilitiesSection {
+    background-color: var(--shallow-wrapper-color);
+    transition: all 0.3s ease-in-out;
+
+}
+
+.Capabilities {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.CapabilitiesItem {
+    width: 100%;
+    min-width: 155px;
+    /* max-width: 160px; */
+    padding: 12px;
+    border-radius: 10px;
+    /* border: 1px solid var(); */
+    background-color: var(--background-color);
+    box-shadow: 0px 6px 3px 2px var(--shadow-wrapper-color);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;
+    /* margin: 20px; */
+}
+
+@media(min-width: 355px) {
+    .CapabilitiesItem {
+        width: 40%;
+    }
+}
+/* 
+Dear sir,                                                                                                                                                                                                                                                          
+I hope you're having a productive day.                                                                                                                                                                                                          
+We have received our company registration letter which contains our contractor code and the requirements for maintaining our registration.
+ I noticed that updates for our company should be made on the Ariba portal, and I would appreciate some clarification. Since there are multiple Ariba portals for different purposes, could you kindly specify which Ariba portal we should use for the required updates (e.g., DPR Permit, Tax Clearance Certificate, Group Life Assurance)?                                                                                                                                                                                                                                                     
+I look forward to your guidance.                                                                                                                                                                                                                    
+Best regards,
+Arkhos oil and gas Ltd
+ SNBO-VMM-
+REQUEST@shell.com
+ */

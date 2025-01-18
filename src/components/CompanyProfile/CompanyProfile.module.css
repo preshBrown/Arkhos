@@ -1,0 +1,20 @@
+a.DownloadBtn {
+    display: block;
+    width: fit-content;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 15px;
+    color: gray;
+    padding: 13px;
+    padding-bottom: 5px;
+}
+
+.DownloadBtn > span {
+    color: var( --item-change);
+    margin-left: 7px;
+    vertical-align: middle;
+}
+
+a.DownloadBtn:hover {
+    color: red;
+}

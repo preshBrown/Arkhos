@@ -1,0 +1,78 @@
+.FaqInfoHeader {
+  padding: 8px 15px;
+  width: 90%;
+  max-width: 700px;
+  display: flex;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(204, 204, 204, 0.4);
+  border-top: 0.5px solid rgba(204, 204, 204, 0.4);
+  border: 0.5px solid rgba(204, 204, 204, 0.9);
+  cursor: pointer;
+  /* position: relative;
+  z-index: 1; */
+}
+
+.FaqInfoHeader > h4 {
+  margin: 0;
+  margin-right: 18px;
+  padding: 5px 0;
+  font-size: 20px;
+  width: fit-content;
+}
+
+
+.Icon {
+  cursor: pointer;
+  /* margin-right: 15px; */
+}
+/* .FaqInfo.Open .Icon {
+      transform: rotate(90deg);
+  } */
+
+/* Toggle icon */
+ .toggle-btn {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .FaqInfo.Open > .FaqInfoHeader .toggle-btn {
+    transform: rotate(-180deg);
+  }
+  
+
+.FaqInfoDescription {
+  border: 0.5px solid rgba(204, 204, 204, 0.4);
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  text-align: left;
+  height: 0;
+  width: 90%;
+  max-width: 700px;
+  margin: auto;
+  overflow: hidden;
+}
+.FaqInfoDescription h5 {
+  margin: 0;
+  font-size: 16px;
+}
+.FaqInfoDescription > p {
+  margin: 0;
+  padding: 10px;
+}
+.FaqInfo.Open > .FaqInfoDescription {
+    margin-top: -25px;
+  padding: 10px 15px;
+  height: auto;
+}
+
+/* .FaqInfoDescription > p {
+  margin: 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px 50px;
+  } */

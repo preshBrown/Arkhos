@@ -1,0 +1,106 @@
+.ImageThree {
+    background: linear-gradient(to top, rgba( 0, 0, 0, 0.7) 10%, transparent), url("./Img/header-1.jpeg");
+    /* background-image: url("../../../../../images/Wine-Heart-Health.jpg")  ; */
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-color:var(--background-color);
+    transition: translate 400ms ease-in-out;
+}
+
+
+
+.ImageThreeChild {
+    position: absolute;
+    max-width: 367px;
+    max-height: 135px;
+    top: 30%;
+    left: 3%;
+    bottom: 12%;
+    width: 80%;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+
+
+  .ImageThreeChild > h4 {
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  .ImageThreeChild > small {
+    font-size: 15px;
+  }
+
+  
+  
+  .Open {
+    animation: open-motion 3000ms ease-in-out forwards;
+  }
+  
+  @keyframes open-motion {
+    0% {
+      transform: translateY(30%);
+    }
+    50% {
+      transform: translateY(-10%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+
+
+/* 
+
+@media (min-width: 365px) {
+    .ImageThree  {
+        background-position: 0% 10%;
+    } 
+} */
+
+
+
+
+
+@media (min-width: 40rem) {
+    .ImageThreeChild {
+      padding-top: 30px;
+      padding-bottom: 2px;
+    }
+    .ImageThreeChild > small {
+      font-size: 16px;
+    }
+   
+  
+    .Open {
+      animation: open-motion 3000ms ease-in-out forwards;
+  }
+  
+  
+  @keyframes open-motion {
+      0% {
+          transform: translateY(70%);
+      }
+      50% {
+          transform: translateY(-10%);
+      }
+      100% {
+          transform: translateY(0);
+      }
+  }
+  }
+
+
+@media (min-width: 927px) {
+    .ImageThree  { 
+        height: 60vh;
+    }
+}

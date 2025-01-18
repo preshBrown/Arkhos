@@ -1,0 +1,30 @@
+.menu-flags {
+    height: 40px;
+    border-radius: 4px;
+    
+}
+.menu-flags > ul {
+    background-color: var(--background-color);
+    color: var(--primary-text-color);
+}
+.menu-flags > ul > div {
+    background-color: var(--background-color);
+}
+.menu-flags > ul > li:hover {
+    background-color: gray;
+}
+
+.menu-flags-button {
+    background-color: var(--background-color) !important;
+    color: var(--primary-text-color) !important;
+    border: 1px solid #ccc !important;
+}
+.menu-flags-button:focus {
+    outline: none;
+    background-color:var(--inputbackground-color) !important;
+    border-color: var(--inputborder-color) !important;
+}
+/* .ReactFlagsSelect-module_selectOptions {
+background-color:var(--inputbackground-color);
+    border-color:var(--inputborder-color);
+} */
