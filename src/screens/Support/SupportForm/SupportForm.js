@@ -38,9 +38,10 @@ const SupportForm = (props) => {
         setLoading(true);
         const originalForm = { ...contact };
     
-        const serviceId = "service_8yf3z6k";
-        const templateId = "template_oazeumi";
-        const publicKey = "1LfMFcAnHzZ0mZ-6l";
+        const serviceId = process.env.REACT_APP_SERVICE_API_KEY;
+        const templateId = process.env.REACT_APP_TEMPLATE_API_KEY;
+        const publicKey = process.env.REACT_APP_PUBLIC_API_KEY;
+    
     
         const templateParams = {
           from_name: "Customer Support Request",
