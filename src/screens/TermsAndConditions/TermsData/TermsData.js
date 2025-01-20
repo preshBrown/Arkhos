@@ -12,7 +12,7 @@ export const termsData = [
   {
     title: "Disclaimer",
     header:
-      "The Information is for general information purposes only and does not constitute advice. BOLDRIX shall not be liable for any damages resulting from the use (or inability to make use) of this Website, including any incorrectness or incompleteness of the Information, unless such damage is the result of any wilful misconduct or gross negligence on the part of BOLDRIX.",
+      "The Information is for general information purposes only and does not constitute advice. ARKHOS shall not be liable for any damages resulting from the use (or inability to make use) of this Website, including any incorrectness or incompleteness of the Information, unless such damage is the result of any wilful misconduct or gross negligence on the part of ARKHOS.",
     listData: [
       <>
         All information or advice provided as part of this web site is intended
@@ -52,7 +52,7 @@ export const termsData = [
   {
     title: "Intellectual property rights",
     header:
-      "The Website and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by Boldrix, its licensors or other providers of such material and are protected by copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.",
+      "The Website and its entire contents, features and functionality (including but not limited to all information, software, text, displays, images, video and audio, and the design, selection and arrangement thereof), are owned by Arkhos, its licensors or other providers of such material and are protected by copyright, trademark, patent, trade secret and other intellectual property or proprietary rights laws.",
     listData: [],
     footerData:
       "You can use the Website only for purposes in line with these Terms. You are permitted to make copies of (parts of) the Website for personal use. You must not use any part of the content on our Website for other purposes without obtaining a written licence from us.",
