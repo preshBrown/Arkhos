@@ -10,7 +10,7 @@ const queryData = [
   { name: "Construction And Fabrication", link: "Construction-fabrication" },
   { name: "Porta Cabin", link: "porta-cabin" },
   { name: "Stock Piling", link: "stockpiling" },
-  { name: "Sandblastin & Painting", link: "sandblasting-and-painting" },
+  { name: "Sandblasting & Painting", link: "sandblasting-and-painting" },
   { name: "Logistics", link: "logistics" },
   { name: "Platform Supply Vessels", link: "platform-supply-vessls" },
   { name: "Crewboat", link: "crewboat" },

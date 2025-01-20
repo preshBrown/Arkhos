@@ -14,6 +14,7 @@ import SuspenseLoader from "./components/Interfaces/SuspenseLoader/SuspenseLoade
 import ErrorPage from "./screens/ErrorPage/ErrorPage";
 import { useDispatch, useSelector } from "react-redux";
 import { initTheme, onIsValidAge } from "./store/ui/uiActions";
+import ScrollToTop from "./components/Utility/ScrollTop/ScrollTop";
 
 const About = React.lazy(() => import("./screens/About/About"));
 const Contact = React.lazy(() => import("./screens/Contact/Contact"));
@@ -211,6 +212,8 @@ function App() {
   if (userConsent === "true");
 
   return (
+    <>
+    <ScrollToTop />
     <Routes>
       <Route path="/" element={<Layout theme={theme} />}>
         <Route index element={<Home />} />
@@ -309,6 +312,7 @@ function App() {
         {/* </Suspense> */}
       </Route>
     </Routes>
+    </>
   );
 }
 
