@@ -15,7 +15,7 @@ const ComponentOne = (props) => {
     <div style={{ translate: props.translate }}
         className={imageOneClasses.ImageOne} 
     >
-      <video className={imageOneClasses.VidIntro} src={ArkhosAction} autoPlay muted loop />
+      <video className={imageOneClasses.VidIntro} src={ArkhosAction} preload="none" autoPlay muted loop />
       <div className={imageOneClasses.Deam}> </div>
       { props.index &&     <div
         className={`${imageOneClasses.ImageOneChild} ${imageOneClasses.Open}`}
